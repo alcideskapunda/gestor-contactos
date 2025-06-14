@@ -1,2 +1,18 @@
 Arquitetura de Pastas:
 https://medium.com/@stroklabs/como-organizar-e-estruturar-projetos-com-node-js-4845be004899
+
+docker:
+https://conteudos.kipperdev.com.br/intensivao-docker
+
+comandos: 
+docker build -t nome-para-o-container . (criar uma imagem docker com o seu nome)
+docker images (consultar as images dockerizadas na sua maquina)
+docker run nome-para-o-container
+docker run -p 3000:3000 nome-para-o-container    -p [host-port]:[container-port] - Mapeia portas
+
+docker build -t nome-para-o-container:2.0 . (apos alterar a app é necessario criar outra imagem... difinir a tag de versão)
+
+docker-hub: (compartilhar a imagem com o time)
+docker login (para logar no docker hub)
+docker tag nome-para-o-container:2.0 meu-nome-de-usuario/nome-para-o-container:2.0
+docker push meu-nome-de-usuario/nome-para-o-container:2.0
