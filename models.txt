@@ -16,3 +16,10 @@ docker-hub: (compartilhar a imagem com o time)
 docker login (para logar no docker hub)
 docker tag nome-para-o-container:2.0 meu-nome-de-usuario/nome-para-o-container:2.0
 docker push meu-nome-de-usuario/nome-para-o-container:2.0
+
+docker compose up --remove-orphans
+
+
+docker exec -it app_container npm run knex:migrate
+
+docker exec -it postgres_container psql -U postgres -d manager
