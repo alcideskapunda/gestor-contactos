@@ -1,5 +1,8 @@
 Arquitetura de Pastas:
-https://medium.com/@stroklabs/como-organizar-e-estruturar-projetos-com-node-js-4845be004899
+https://medium.com/@stroklabs/como-organizar-e-estruturar-projetos-com-node-js-
+
+zod:
+https://youtu.be/z53CWrFP9GY?si=pC7xDbzYTezi6sjY
 
 docker:
 https://conteudos.kipperdev.com.br/intensivao-docker
