@@ -7,7 +7,7 @@ get all - de todos os contactos e os seus respectivos nomes.
 
 os contactos tevem ter no maximo só 16.
 
-usar uma API externa para verificar o prefixo, para saber se o numero é de que pais. e salvar no banco o nome do pais.
+usar uma API externa (ex: API do RestCountries) para verificar o prefixo, para saber se o numero é de que pais. e salvar no banco o nome do pais.
 
 se for apagar um User deve apagar todos os contactos a ele vinculados.
 

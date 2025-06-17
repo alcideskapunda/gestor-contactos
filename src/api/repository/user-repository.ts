@@ -1,9 +1,5 @@
 import { Knex } from "../database"
 
-interface userData {
-    name: string
-}
-
 const tableName = "users"
 
 export async function create(data: string) {

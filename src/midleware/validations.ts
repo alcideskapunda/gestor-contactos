@@ -11,7 +11,7 @@ const Contact = z.object({
     prefix: z.string().max(5, msg.maxPrefix).trim(),
     country: z.string().optional(),
     number: z.string().max(20, msg.maxPhone),
-    user_id: z.bigint()
+    user_id: z.number()
 })
 
 type ruleType = typeof User | typeof Contact;

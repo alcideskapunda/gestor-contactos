@@ -10,5 +10,15 @@ export default {
     minChar: "minimo 3 caracteres",
     maxChar: "maximo 50 caracteres",
     maxPrefix: "maximo 5 caracteres",
-    maxPhone: "maximo 20 numeros"
+    maxPhone: "maximo 20 numeros",
+
+    contactSuccess: "Contacto foi criado com sucesso",
+    contactUpdate: "Contacto aualizado com sucesso",
+    contactDel: "Contacto removido com sucesso",
+    contactError: "Contacto não pode ser criado",
+    contactErrorUpdate: "Contacto não pode ser atualizado",
+    contactErrorDel: "Contacto não pode ser removido",
+    contactNotFound: "Contacto não encontrado",    
+
+    coutryNotFoud: "Pais não encontrado",
 }
