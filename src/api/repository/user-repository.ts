@@ -16,6 +16,10 @@ export async function getbyid(id: number) {
     return await Knex(tableName).select("*").where("id", "=", id).first();
 }
 
+export async function getall() {
+    return await Knex(tableName).select("*").returning(["id", "name"])
+}
+
 export async function updated(id: number, data: string) {
     return Knex(tableName).update(data).where("id", "=", id);
 }
