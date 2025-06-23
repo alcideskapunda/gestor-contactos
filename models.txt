@@ -26,3 +26,7 @@ docker compose up --remove-orphans
 docker exec -it app_container npm run knex:migrate
 
 docker exec -it postgres_container psql -U postgres -d manager
+
+VERQUEM esta A USAR uma porta expecifica: sudo lsof -i :5432
+depois parar o serviço: sudo service postgresql stop
+parar todos os serviços mesmo os antigos: docker compose down -v

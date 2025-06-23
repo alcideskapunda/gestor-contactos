@@ -18,7 +18,12 @@ const development: Knex.Config = {
 
 const test: Knex.Config = {
   ...development,
-  connection: ":memory:"
+  connection: {
+    host: config.local,
+    user: config.database.user,
+    password: config.database.pass,
+    database: config.database.name
+  }
 }
 
 const production: Knex.Config = {
