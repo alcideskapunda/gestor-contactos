@@ -15,7 +15,6 @@ API RESTful para gerenciamento de contactos de usuários.
 - 🌍 Com base nos prefixos telefônicos, pegar o nome do País com API externa (ex: RestCountries)
 - 🧹 Exclusão em cascata: ao remover um usuário, todos os seus contactos são excluídos
 - 🛡️ Validação com Zod
-- 🧪 Testes automatizados com Jest
 
 ---
 
@@ -36,7 +35,7 @@ API RESTful para gerenciamento de contactos de usuários.
 | `userId` | ID | - |
 | `prefixo` | string | +244 |
 | `pais` | string | Angola |
-| `numero` | string | 923456780 |
+| `numero` | string | 926051630 |
 
 ---
 
@@ -48,7 +47,6 @@ API RESTful para gerenciamento de contactos de usuários.
 - **Knex**
 - **Zod**
 - **Docker**
-- **Jest** (testes)
 
 ---
 
@@ -66,8 +64,8 @@ Antes de começar, você vai precisar ter instalado:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/alcideskapunda/gestor-contactos.git
+cd nome da pasta
 
 # Instale as dependências
 npm install
